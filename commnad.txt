@@ -1,0 +1,11 @@
+dir <django_project>
+
+python django startproject <django_project>
+
+cd django_project
+
+tree /A /F
+
+python manage.py runserver
+
+python manage.py migrate
